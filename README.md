@@ -16,7 +16,7 @@ The data set contains the following attributes:
 -	*Iris Versicolour*
 -	*Iris Virginica*
 
-
+![iris-samples](https://user-images.githubusercontent.com/47272839/55897540-a3b26b80-5bb8-11e9-88eb-f021b4273bd8.png)
 
 Fisher's Iris data set is available as csv file on multiple websites (for example, on https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv). The goal of this project is to research the backround and data set itself and present different ways of analysing it by write a summary documentation and a code in Python programming language. 
 
