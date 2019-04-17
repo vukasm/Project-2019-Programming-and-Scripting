@@ -4,7 +4,7 @@ Research Project on Iris Dataset for the module Programming and Scripting in Dat
 **Ronald Fisher** was a British statistician and genericist. For his work in statistics, he has been described as "a genius who almost single-handedly created the foundations for modern statistical science".
 ![ronald-fisher](https://user-images.githubusercontent.com/47272839/55897456-7239a000-5bb8-11e9-94cf-8b5092f764c6.jpg)
 
-Fisher's *Iris data set* (Fisher,) is perhaps the best known database to be found in the pattern recognition literature. He introduced the Iris data sdet in his 1936 paper The use od multiple measurements in taxonomic problems as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Iris is a genus of 260-300 species of flowering plants with showy flowers. The name comes from the Greek word for a rainbow, as the flower colours have a broad variety. 
+Fisher's *Iris data set* (Fisher,) is perhaps the best known database to be found in the pattern recognition literature. He introduced the Iris data set in his 1936 paper *The use od multiple measurements in taxonomic problems* as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. *Iris* is a genus of 260-300 species of flowering plants with showy flowers. The name comes from the Greek word for a rainbow, as the flower colours have a broad variety. 
 The data set contains 3 classes of samples each, where each class refers to a type of iris plant. One class is linearly separable from the other two, while the other two are not linearly separable from each other.
 The data set contains the following attributes:
 1.	Sepal length in cm
@@ -15,6 +15,7 @@ The data set contains the following attributes:
 -	*Iris Setosa*
 -	*Iris Versicolour*
 -	*Iris Virginica*
+
 The data set contains 150 observations of iris flowers. There are four columns of measurements of the flowers in centimeters. The fifth column is the species of the flower observed. All observed flowers belong to one of three species.
 
 ![iris-samples](https://user-images.githubusercontent.com/47272839/55897540-a3b26b80-5bb8-11e9-88eb-f021b4273bd8.png)
@@ -22,7 +23,7 @@ The data set contains 150 observations of iris flowers. There are four columns o
 Fisher's Iris data set is available as csv file on multiple websites (for example, on https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv). The goal of this project is to research the backround and data set itself and present different ways of analysing it by write a summary documentation and a code in Python programming language. 
 
 ## Process
-Import all of the modules and functions. I am using pandas to load the data. I will also use pandas next to explore the data both with descriptive statistics and data visualisation. 
+Import all of the modules and functions. I am using pandas to load the data. 
 
 ![process1](https://user-images.githubusercontent.com/47272839/56077154-b43d2e80-5dd0-11e9-8792-6eb3cec7dc2e.JPG)
 
@@ -40,6 +41,7 @@ Numbers can tell a lot, but sometimes it is better to see the statistics with *b
 
 This gives us a rough estimate of the distribution of the values for each attribute. It shows us Median, Upper and Lower Quartile, Maximum and Minimum value, and Outliers.
 
+![Capture](https://user-images.githubusercontent.com/47272839/56313957-b80fde80-614b-11e9-95c2-0f205807921c.JPG)
 
 
 Next, we can make histograms. Histograms show us the univariate plots for each measurement(calculated per attribute). 
@@ -69,10 +71,13 @@ Of course, there will be mistakes within versicolor and virginica, because they 
 1. Make sure you have Python installed.
 
 ## What each file contains
-
+iris-data-set.py contains a python script which calculates all the data described above,
+iris-data-set.csv contains the Iris data set itself.
 
 ## References
 - Iris Dataset-Exploratory Data Analysis, *Kaggle* (https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis)
 - Mastering Markdown, *GitHub Guides* (https://guides.github.com/features/mastering-markdown/)
 - Iris Dataset cvs file downloaded from: (https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/iris.csv)
 - Iris flower Dataset, *Wikipedia* (https://en.wikipedia.org/wiki/Iris_flower_data_set)
+- Data Science Example, Rafael Santos (http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html)
+- Basic analysis of the Iris Data Set using python, *Medium.com* (https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342)
